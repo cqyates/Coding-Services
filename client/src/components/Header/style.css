@@ -1,13 +1,18 @@
 h1 {
-  text-align:right;
+  text-align:left;
   color: var(--lightOne);
   font-family: 'Carattere', cursive;
   letter-spacing: 4px;
   font-weight: 400;
   font-size: 92px;
-  margin-right: 2em;
+  border-bottom: 1px solid white;
+  margin: 1rem 
 }
 header {
   background-image: linear-gradient(to top right, var(--gradOne), var(--gradTwo));
   padding: 2em 0
+}
+header div {
+  width: fit-content;
+  margin-left: 1em;
 }
