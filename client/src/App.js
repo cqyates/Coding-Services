@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from "./components/Header/"
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
 function App() {
   return (
-    
-    <Header/>
+    <div style={{ border: '1px solid green' }}>
+      <Header />
+      <Outlet />
+    </div>
   );
 }
 
