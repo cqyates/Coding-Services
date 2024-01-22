@@ -1,0 +1,11 @@
+main {
+  width: 100vw;
+  display: flex;
+  border: 1px solid red
+}
+#content {
+  width: 20%
+}
+#calendar {
+  width: 80%;
+}

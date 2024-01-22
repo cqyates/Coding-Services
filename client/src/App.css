@@ -6,7 +6,9 @@
   background-color:var(--backOne);
   color:white
 }
-
+div {
+  width: 100vw
+}
 header nav ul {
 list-style-type: none;
 display: flex;
