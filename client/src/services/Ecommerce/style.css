@@ -9,11 +9,3 @@ main {
 #calendar {
   width: 80%;
 }
-h4 {
-  border-bottom: 2px solid white
-}
-ul {
-list-style-type: none;
-text-align: left;
-margin-top: 2em
-}

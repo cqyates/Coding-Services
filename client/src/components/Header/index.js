@@ -4,10 +4,8 @@ import './style.css';
 const Header = () => {
   return (
     <header>
-      <div>
+      <div id="name">
         <h1>Corey Quinn Yates</h1>
-      </div>
-      <div>
         <Subtitle />
       </div>
     </header>

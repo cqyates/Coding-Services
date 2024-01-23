@@ -2,20 +2,23 @@ import { useState } from 'react';
 
 const Subtitle = () => {
   const phraseArray = [
+    'Consultant and Educator',
     'Software Developer',
-    'MERN Stack Expert',
     'Javascript Teacher',
     'Debugger',
     'React Master',
-    'Design Pro',
-    ''
+    'Designer'
   ];
-  const [phrase, setPhrase] = useState(phraseArray[0]);
-  const [position, setPosition] = useState();
+  const [phrase, setPhrase] = useState();
+  const [position, setPosition] = useState(0);
   const cyclePhrase = () => {
     setTimeout(function () {
-      setPosition(Math.floor(Math.random() * phraseArray.length));
-      setPhrase(phraseArray[position]);
+      setPosition(position+1)
+      if(position===phraseArray.length) {
+        setPosition(0)
+       
+      }
+      setPhrase(phraseArray[position])
     }, 1000);
   };
 
