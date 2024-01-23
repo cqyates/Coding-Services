@@ -11,10 +11,14 @@ header {
   background-image: linear-gradient(to top right, var(--gradOne), var(--gradTwo));
   padding: 2em 0;
   display: flex;
+  height: 20vh
 }
 header div {
   width: 50%;
-  display: flex;
   align-items: center;
   justify-content: center
+}
+h3 {
+  font-family: 'Carattere', cursive;
+  letter-spacing: 2px;
 }
