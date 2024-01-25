@@ -11,7 +11,6 @@ header {
   background-image: linear-gradient(to top right, var(--gradOne), var(--gradTwo));
   padding: 2em 0;
   display: flex;
-  height: 20vh
 }
 header div {
   width: 50%;

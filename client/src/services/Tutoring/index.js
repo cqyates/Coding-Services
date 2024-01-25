@@ -2,9 +2,9 @@ import Calendar from '../../components/Calendar';
 import './style.css';
 const Tutoring = () => {
   return (
-    <main>
-      <section id="content" style={{ border: '1px solid white' }}>
-        <h4>Mern Stack Tutoring</h4>
+    <>
+      <section id="content" style={{ backgroundColor: 'grey' }}>
+        {/* <h4>Mern Stack Tutoring</h4>
         <ul>
           <li className="tech-list">HTML</li>
           <li className="tech-list">CSS</li>
@@ -18,13 +18,13 @@ const Tutoring = () => {
           <li className="tech-list">Mongo and Mongoose</li>
           <li className="tech-list">GraphQL and Apollo Servers</li>
           <li className="tech-list">React</li>
-        </ul>
+        </ul> */}
       </section>
-      <section id="calendar" style={{ border: '1px solid white' }}>
-        <h4>My Calendar</h4>
-        <Calendar />
+      <section id="calendar">
+        {/* <h4>My Calendar</h4> */}
+       
       </section>
-    </main>
+    </>
   );
 };
 export default Tutoring;

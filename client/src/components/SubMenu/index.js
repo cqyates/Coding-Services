@@ -1,4 +1,5 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import "./style.css"
 const subMenu = ({handlePageChange})=> {
   return (
     <Navbar className="navbar" expand="md">

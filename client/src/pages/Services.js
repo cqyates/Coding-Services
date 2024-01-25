@@ -18,12 +18,12 @@ const ServicesContainer = () => {
   }
   return (
     <>
-    <section>
-      <SubMenu currentPage={currentPage} handlePageChange={handlePageChange}/>
+    <section id="services-container">
+      <SubMenu currentPage={currentPage} handlePageChange={handlePageChange} style={{color: "white"}}/>
+      <main id="services-main">
+        {insertService()}
+      </main>
     </section>
-    <main>
-      {insertService()}
-    </main>
     </>
   )
 }

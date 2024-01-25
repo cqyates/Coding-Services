@@ -1,0 +1,12 @@
+#home-container {
+ background-color: pink;
+}
+#services-container {
+  display: inline-grid;
+  grid-template-rows: 10% 90%;
+  width: 100%;
+  color: white;
+}
+#services-main {
+  background-color: pink;
+}

@@ -1,17 +1,12 @@
-main {
+/* main {
   width: 100vw;
   display: flex;
   border: 1px solid red
-}
-#content {
-  width: 20%
-}
-#calendar {
-  width: 80%;
-}
-h4 {
+} */
+
+/* h4 {
   border-bottom: 2px solid white
-}
+} */
 ul {
 list-style-type: none;
 text-align: left;

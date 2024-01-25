@@ -32,8 +32,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  border: 1px solid white
+  /* display: flex; */
+  border: 1px solid lightgreen
 }
 
 h1 {
