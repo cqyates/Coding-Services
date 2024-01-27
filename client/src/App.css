@@ -6,11 +6,21 @@
   background-color:var(--backOne);
   color:white
 }
-div {
-  width: 100vw
+.parent{
+  /* width: 100vw; */
+  height: 100vh;
+  display: grid;
+  grid-template-columns: [first] 20% [second] 20% [third] 20% [fourth] 20%;
+  grid-template-rows: [first-row] 20% [second-row] 20% [third-row] 20% [fourth-row] 20%
 }
-header nav ul {
+.page-container {
+grid-column-start: first;
+grid-column-end: fifth;
+grid-row-start: second-row;
+grid-row-end: fifth-row
+}
+/* header nav ul {
 list-style-type: none;
 display: flex;
 justify-content: space-around
-}
+} */

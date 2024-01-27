@@ -3,7 +3,7 @@ import Subtitle from '../Subtitle';
 import './style.css';
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <div id="name">
         <h1>Corey Quinn Yates</h1>
         <Subtitle />

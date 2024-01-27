@@ -17,14 +17,13 @@ const ServicesContainer = () => {
     }
   }
   return (
-    <>
     <section>
-      <SubMenu currentPage={currentPage} handlePageChange={handlePageChange}/>
+    <div className="services-menu" style={{border: "1px solid black"}}>
+      <SubMenu handlePageChange={handlePageChange} currentPage={currentPage}/>
+    </div>
+    <div style={{border: "1px solid red"}}>{insertService()}</div>
     </section>
-    <main>
-      {insertService()}
-    </main>
-    </>
+
   )
 }
 export default ServicesContainer;
