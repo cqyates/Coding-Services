@@ -1,8 +1,8 @@
 const HomePage = () => {
   return (
-    <section>
-      <h4>Home ?</h4>
-    </section>
+    <div className="homepage-block" style={{backgroundColor: "red"}}>
+    home block
+  </div>
   );
 };
 export default HomePage;
