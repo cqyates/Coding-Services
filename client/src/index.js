@@ -6,10 +6,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import ExperiencePage from './pages/Experience.js';
+import AboutPage from './pages/About.js';
 import HomePage from './pages/Home.js';
 import ErrorPage from './pages/Error.js';
-import ServicesPage from "./pages/Services"
+import ServicesPage from './pages/Services';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -20,14 +20,14 @@ const router = createBrowserRouter([
         index: true,
         element: <HomePage />,
       },
+      {
+        path: 'about',
+        element: <AboutPage />,
+      },
       
       {
-        path: 'experience',
-        element: <ExperiencePage />,
-      },
-      {
         path: 'services',
-        element: <ServicesPage/>,
+        element: <ServicesPage />,
       },
     ],
   },
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <RouterProvider  router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

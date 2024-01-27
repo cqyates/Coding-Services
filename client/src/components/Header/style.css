@@ -10,7 +10,7 @@ h1 {
 .header {
   background-image: linear-gradient(to top right, var(--gradOne), var(--gradTwo));
   padding: 2em 0;
-  /* display: flex; */
+  display: flex;
   grid-column-start: first;
   grid-column-end: sixth;
   grid-row: first-row
